@@ -1,4 +1,5 @@
-
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
@@ -23,6 +24,7 @@ local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 Gradient.Name = "Gradient"
 Gradient.Parent = game.StarterGui.ScreenGui
+Gradient.Active = true
 Gradient.AnchorPoint = Vector2.new(0.5, 0.5)
 Gradient.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
 Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -139,7 +141,7 @@ UIAspectRatioConstraint.AspectRatio = 0.665
 
 -- Scripts:
 
-local function OHVGRZE_fake_script() -- TextButton.LocalScript 
+local function NQLF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local player = game.Players.LocalPlayer
@@ -151,8 +153,8 @@ local function OHVGRZE_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(OHVGRZE_fake_script)()
-local function HNIJBCX_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(NQLF_fake_script)()
+local function SDMFIE_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local player = game.Players.LocalPlayer
@@ -164,8 +166,8 @@ local function HNIJBCX_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(HNIJBCX_fake_script)()
-local function DZVWPYV_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(SDMFIE_fake_script)()
+local function GWWSMPX_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	--[[
@@ -219,4 +221,4 @@ local function DZVWPYV_fake_script() -- Gradient.LocalScript
 	end)
 	
 end
-coroutine.wrap(DZVWPYV_fake_script)()
+coroutine.wrap(GWWSMPX_fake_script)()
